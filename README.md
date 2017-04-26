@@ -1,6 +1,6 @@
 # npmtest-stomp-client
 
-#### test coverage for  [stomp-client (v0.9.0)](https://github.com/easternbloc/node-stomp-client#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-stomp-client.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-stomp-client) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-stomp-client.svg)](https://travis-ci.org/npmtest/node-npmtest-stomp-client)
+#### basic test coverage for  [stomp-client (v0.9.0)](https://github.com/easternbloc/node-stomp-client#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-stomp-client.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-stomp-client) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-stomp-client.svg)](https://travis-ci.org/npmtest/node-npmtest-stomp-client)
 
 #### A STOMP protocol implementation in node.js
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-stomp-client/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-stomp-client/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-stomp-client/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-stomp-client/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-stomp-client/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-stomp-client/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-stomp-client/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-stomp-client/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-stomp-client/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-stomp-client/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-stomp-client/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-stomp-client/build/coverage.html/index.html)
 
@@ -85,7 +85,8 @@
         "lint": "[ -z \"$LINTFILES\" ] && LINTFILES='**'; ./node_modules/jshint/bin/jshint ${LINTFILES}",
         "test": "nodeunit test"
     },
-    "version": "0.9.0"
+    "version": "0.9.0",
+    "bin": {}
 }
 ```
 
